@@ -1,4 +1,4 @@
-package Dto;
+package com.thoughtworks.capability.gtb.entrancequiz.Dto;
 
 
 public class Member {

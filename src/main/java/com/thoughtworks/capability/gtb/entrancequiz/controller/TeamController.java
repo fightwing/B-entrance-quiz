@@ -1,13 +1,11 @@
-package controller;
+package com.thoughtworks.capability.gtb.entrancequiz.controller;
 
-import Dto.Team;
+import com.thoughtworks.capability.gtb.entrancequiz.Dto.Team;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import service.MemberService;
-import service.TeamService;
+import com.thoughtworks.capability.gtb.entrancequiz.Service.MemberService;
+import com.thoughtworks.capability.gtb.entrancequiz.Service.TeamService;
 
 import java.util.List;
 

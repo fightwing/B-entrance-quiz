@@ -1,6 +1,6 @@
-package service;
+package com.thoughtworks.capability.gtb.entrancequiz.Service;
 
-import Dto.Member;
+import com.thoughtworks.capability.gtb.entrancequiz.Dto.Member;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

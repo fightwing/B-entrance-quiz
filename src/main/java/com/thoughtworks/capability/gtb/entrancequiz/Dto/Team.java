@@ -1,4 +1,6 @@
-package Dto;
+package com.thoughtworks.capability.gtb.entrancequiz.Dto;
+
+import com.thoughtworks.capability.gtb.entrancequiz.Dto.Member;
 
 import java.util.List;
 
