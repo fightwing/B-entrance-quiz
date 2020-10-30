@@ -8,7 +8,8 @@ import java.util.List;
 
 @Service
 public class MemberService {
-
+//TODO GTB-知识点: * 了解下三层架构
+//TODO GTB-知识点: - MemberService.java:11 数据存储相关的操作，不属于service的职责，应该抽取repository层做
     public static final List<Member> members = new ArrayList<>();
 
     public static  int START_ID = 1;
@@ -35,6 +36,7 @@ public class MemberService {
 
     public List<Member> addMember(Member member){
         member.setId(START_ID);
+        //TODO GTB-工程实践: - MemberService.java:39 这种i++的自增id的方式存在线程安全问题，内存中自增可以试试AtomicInteger
         START_ID++;
         members.add(member);
         return members;

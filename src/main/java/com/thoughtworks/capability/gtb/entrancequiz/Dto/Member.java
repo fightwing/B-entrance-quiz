@@ -1,6 +1,8 @@
 package com.thoughtworks.capability.gtb.entrancequiz.Dto;
 
-
+//TODO GTB-知识点: - Member.java:3 Member与Team应该属于entity
+//TODO GTB-知识点: * 加深对DTO的理解，考虑一下什么情况下才需要引入DTO
+//TODO GTB-知识点: * 了解下Lombok
 public class Member {
 
     private int id;
